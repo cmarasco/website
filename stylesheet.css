@@ -1,0 +1,428 @@
+header {
+    text-align: center;
+    background-image: url("star_background.jpg");
+    /* background-color: #76A5BC; */
+}
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.right-header {
+    margin-top: 0px;
+}
+
+.heading > div {
+    padding: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* background-color: #B48E7E; */
+    background-color: #5188A4;
+    text-align: center;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+}
+
+.navbar {
+    padding: 0;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.nav-item {
+    transition: 0.5s ease; /* Add transition for smooth animation */
+    /* border-radius: 10px;
+    border: 1px solid #B23A48; */
+}
+
+.nav-link:hover {
+    background-color: #8C2F39; /* Change this to the desired hover color */
+    /* border-radius: 10px;
+    border: 1px solid white; */
+}
+
+.nav-link {
+    transition: 0.5s ease; /* Add transition for smooth animation */
+    padding-top: 23px;
+    padding-bottom: 20px;
+}
+
+strong {
+    font-weight: normal;
+}
+i {
+    color: gray;
+    visibility: hidden;
+}
+
+.sub-holder {
+    width: 350px;
+}
+
+.small {
+    font-size: 10px;
+}
+
+p > input {
+    width: 100px;
+}
+
+body {
+    /* background-color: #edf2f4; */
+    background-image: url("star-background.jpg");
+    font-family: 'Merriweather', sans-serif;
+}
+
+.holder {
+    border: 3px solid white;
+    background-color: #FFFFFFEF;
+    /* background-color: #fff1e6; */
+    /* padding: 10px; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 2.5%; /* Adjust the gap between the boxes as needed */
+
+    height: 100%;
+    min-height: 100vh; /* Set a minimum height of 100% viewport height */
+    max-height: none; /* Set a minimum height of 100% viewport height */
+}
+
+.sub-holder {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1%; /* Adjust the gap between the boxes as needed */
+    width: 100%;
+}
+
+.sub-holder-flipped {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1%; /* Adjust the gap between the boxes as needed */
+    width: 100%;
+}
+
+.box-border {
+    margin-bottom: 150px;
+    margin-top: 50px;
+    /* border: 2px solid #000; */
+    border-right: 2px solid #000;
+    margin-left: 8%;
+    width: 350px;
+}
+
+.box-border img {
+    display: block; /* Set the image display property to block */
+    margin: 0 auto; /* Center the image horizontally */
+    width: 300px;
+    /* padding-right: 30px; */
+    border-radius: 10px;
+}
+
+.box {
+    padding: 10px;
+    margin-right: 8%;
+    margin-left: 8%;
+
+    /* border: 2px solid green; */
+}
+
+.box-right {
+    padding: 10px;
+    margin-right: 8%;
+    margin-left: 0%;
+    padding-right: 40px;
+    order: 2; /* Change the order of the image in the horizontal layout */
+
+    /* border: 2px solid green; */
+}
+
+.text {
+    margin-right: 8%;
+    /* border: 2px solid #000; */
+    margin-left: 8%;
+}
+
+.text-left {
+    order: 1; /* Change the order of the text in the horizontal layout */
+}
+
+.box img {
+    margin-top: 30px;
+    display: block; /* Set the image display property to block */
+    margin: 0 auto; /* Center the image horizontally */
+    max-width: min(100%, 350px);
+}
+
+.box-right img {
+    margin-top: 30px;
+    display: block; /* Set the image display property to block */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.holder-basic {
+    border: 3px solid white;
+    background-color: #FFFFFFEF;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+    height: 100%;
+    min-height: 100vh; /* Set a minimum height of 100% viewport height */
+}
+
+.box-basic {
+    padding: 10px;
+    margin-bottom: 100px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.holder > p {
+   padding-left: 8%;
+   padding-right: 8%;
+   padding-top: 15px;
+   font-size: 16px;
+}
+
+.sub-holder > p {
+   padding-left: 8%;
+   padding-right: 8%;
+   padding-top: 15px;
+   font-size: 16px;
+}
+
+.expand {
+    height: 0px;
+    line-height: 0px;
+    font-size: 14px;
+    opacity: 0;
+    margin: 0px;
+}
+.expand > p > strong {
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.center-col {
+    text-align: center;
+}
+
+.bolded {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 8%; /* Adjust the padding as needed */
+}
+
+.logo {
+    max-width:20px;
+    max-height:20px;
+    margin-right: 0px;
+}
+
+.links-row p {
+    margin: 0;
+    font-size: 12px;
+    margin-left: -75px;
+}
+
+.links-row a {
+    color: black;
+}
+
+.links {
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: repeat(4, auto); /* Four rows */
+    grid-gap: 0px; /* Adjust the gap between grid items as needed */
+    align-items: flex-start;
+    /* border: 2px solid green; */
+}
+
+.links-row {
+    margin-top: 4px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-gap: 0px; /* Adjust the gap between grid items as needed */
+    align-items: flex-start;
+    margin-left: -75px;
+}
+
+.pic-holder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1%; /* Adjust the gap between the boxes as needed */
+    width: 100%;
+    /* border: 2px solid red; */
+    align-items: center; /* Center items vertically */
+}
+
+.pic-holder img {
+    max-width: min(100%, 400px);
+}
+
+.pic-holder p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 950px) {
+
+    .holder {
+        grid-template-columns: 1fr;
+    }
+
+    .sub-holder {
+        grid-template-columns: 1fr;
+    }
+
+    .pic-holder {
+        grid-template-columns: 1fr;
+    }
+
+    .sub-holder-flipped {
+        grid-template-columns: 1fr;
+    }
+
+    .box-border {
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding: 10px;
+        margin-bottom: 0px;
+        border-right: none;
+        border-bottom: 2px solid #000;
+        margin-top: 10px;
+        width: auto;
+    }
+
+    .box {
+        margin-left: 8%;
+        margin-right: 8%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding: 10px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+        width: auto;
+    }
+
+    .box-right {
+        padding-right: 0px;
+        margin-right: 0px;
+    }
+
+    .box-right img {
+        display: block; /* Set the image display property to block */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+    .box p {
+        text-align: center;
+    }
+
+    .box-border p {
+        text-align: center;
+    }
+    .logo {
+        max-width:12px;
+    }
+
+    .squish-header {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+
+    .box-right {
+      order: 1; /* Change the order of the image in the horizontal layout */
+    }
+
+    .text-left {
+      order: 2; /* Change the order of the text in the horizontal layout */
+    }
+
+    .right-header {
+        margin-top: 0px;
+    }
+
+    .logo {
+        max-width:20px;
+        max-height:20px;
+        /* border: 1px solid yellow; */
+    }
+
+    .links-row p {
+        margin: 0;
+        font-size: 12px;
+        text-align: left;
+        /* border: 2px solid red; */
+        width: 200px;
+    }
+
+    .links-row a {
+        color: black;
+    }
+
+    .links {
+        display: grid;
+        grid-template-rows: repeat(4, auto); /* Four rows */
+        grid-gap: 0px; /* Adjust the gap between grid items as needed */
+        /* border: 2px solid green; */
+        display: block; /* Set the image display property to block */
+        margin: 0 auto; /* Center the image horizontally */
+        width: 250px;
+    }
+
+    .links-row {
+        margin-top: 4px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+        grid-gap: 0px; /* Adjust the gap between grid items as needed */
+        width: 250px;
+        margin-left: 0;
+        /* border: 2px solid blue; */
+    }
+
+    .corin_pic {
+        max-width: min(100%, 350px);
+        display: block; /* Set the image display property to block */
+        margin: 0 auto; /* Center the image horizontally */
+        padding: 0;
+
+    }
+}
