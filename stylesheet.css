@@ -23,6 +23,14 @@ h3 {
     margin-bottom: 20px;
 }
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
 .right-header {
     margin-top: 0px;
 }
@@ -98,7 +106,7 @@ body {
 }
 
 .holder {
-    border: 3px solid white;
+    /* border: 3px solid white; */
     background-color: #FFFFFFEF;
     /* background-color: #fff1e6; */
     /* padding: 10px; */
@@ -121,6 +129,10 @@ body {
     grid-template-columns: 1fr 2fr;
     grid-gap: 1%; /* Adjust the gap between the boxes as needed */
     width: 100%;
+    /* max-width: 900px; */
+    /* padding: 10px; */
+    /* margin-left: 8%;
+    margin-right: 8%; */
 }
 
 .sub-holder-flipped {
@@ -128,15 +140,19 @@ body {
     grid-template-columns: 2fr 1fr;
     grid-gap: 1%; /* Adjust the gap between the boxes as needed */
     width: 100%;
+    /* padding: 10px; */
+    padding-left: 8%;
+    padding-right: 10%;
 }
 
 .box-border {
-    margin-bottom: 150px;
-    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-top: 25px;
     /* border: 2px solid #000; */
-    border-right: 2px solid #000;
+    border-right: 1px dashed #B23A48;
     margin-left: 8%;
     width: 350px;
+    padding-top: 60px;
 }
 
 .box-border img {
@@ -145,6 +161,7 @@ body {
     width: 300px;
     /* padding-right: 30px; */
     border-radius: 10px;
+    /* margin-top: 30px; */
 }
 
 .box {
@@ -156,10 +173,7 @@ body {
 }
 
 .box-right {
-    padding: 10px;
-    margin-right: 8%;
-    margin-left: 0%;
-    padding-right: 40px;
+    margin-top:2vh;
     order: 2; /* Change the order of the image in the horizontal layout */
 
     /* border: 2px solid green; */
@@ -180,29 +194,37 @@ body {
     display: block; /* Set the image display property to block */
     margin: 0 auto; /* Center the image horizontally */
     max-width: min(100%, 350px);
+    /* margin-top:5vh; */
+    margin-left:10vh;
+    /* padding-left:  */
 }
 
-.box-right img {
-    margin-top: 30px;
-    display: block; /* Set the image display property to block */
-    margin: 0 auto; /* Center the image horizontally */
+.box p {
+   padding-right:8%;
 }
+
+/* .box-right img {
+    margin-top: 30px;
+    display: block;
+    margin: 0 auto;
+} */
 
 .holder-basic {
-    border: 3px solid white;
+    /* border: 3px solid white; */
     background-color: #FFFFFFEF;
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 50px;
     height: 100%;
     min-height: 100vh; /* Set a minimum height of 100% viewport height */
+    /* max-width:1000px; */
 }
 
 .box-basic {
     padding: 10px;
-    margin-bottom: 100px;
     margin-left: 8%;
     margin-right: 8%;
+    margin-bottom: 100px;
 }
 
 .holder > p {
@@ -285,20 +307,22 @@ body {
     width: 100%;
     /* border: 2px solid red; */
     align-items: center; /* Center items vertically */
+
 }
 
 .pic-holder img {
-    max-width: min(100%, 400px);
+    margin: 0 auto; /* Center the image horizontally */
 }
 
 .pic-holder p {
     font-size: 13px;
     text-align: center;
     margin-top: 15px;
+    padding-left: 30px;
 }
 
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
 
     .holder {
         grid-template-columns: 1fr;
@@ -340,6 +364,14 @@ body {
         width: auto;
     }
 
+    .box img {
+        margin-top: 30px;
+        display: block; /* Set the image display property to block */
+        margin: 0 auto; /* Center the image horizontally */
+        max-width: min(100%, 350px);
+        /* padding-left:  */
+    }
+
     .box-right {
         padding-right: 0px;
         margin-right: 0px;
@@ -350,9 +382,9 @@ body {
         margin: 0 auto; /* Center the image horizontally */
     }
 
-    .box p {
+    /* .box p {
         text-align: center;
-    }
+    } */
 
     .box-border p {
         text-align: center;
@@ -425,4 +457,32 @@ body {
         padding: 0;
 
     }
+}
+
+@media (min-width: 1250px) {
+  .holder-basic {
+      /* border: 3px solid white; */
+      background-color: #FFFFFFEF;
+      padding-top: 50px;
+      height: 100%;
+      width: 1000px; /* Set a minimum height of 100% viewport height */
+      margin: 0 auto; /* Center the image horizontally */
+  }
+
+  .holder {
+      /* border: 3px solid white; */
+      background-color: #FFFFFFEF;
+      margin: 0 auto; /* Center the image horizontally */
+      padding-top: 70px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      grid-gap: 2.5%; /* Adjust the gap between the boxes as needed */
+
+      height: 100%;
+      min-height: 100vh; /* Set a minimum height of 100% viewport height */
+      max-height: none; /* Set a minimum height of 100% viewport height */
+      width: 1000px; /* Set a minimum height of 100% viewport height */
+  }
 }
