@@ -310,7 +310,7 @@ body {
   line-height: 10px; /* Vertical centering */
   text-align: center; /* Optional: Center text within the button */
   font-size: 20px;
-  border-radius: 20px; /* Adjust the border-radius for the oval effect */
+  border-radius: 30px; /* Adjust the border-radius for the oval effect */
 }
 
 .navbar-nav .nav-link.nav-short {
