@@ -300,6 +300,27 @@ body {
     margin-left: -75px;
 }
 
+/* .navbar-nav .nav-item {
+  padding-bottom: 20px;
+} */
+
+.navbar-nav .nav-link {
+  width: 100px;
+  /* height: 50px; */
+  line-height: 10px; /* Vertical centering */
+  text-align: center; /* Optional: Center text within the button */
+  font-size: 20px;
+  border-radius: 20px; /* Adjust the border-radius for the oval effect */
+}
+
+.navbar-nav .nav-link.nav-short {
+    width: 60px; /* Adjust the width as needed */
+}
+
+.navbar-nav .nav-link.nav-long {
+    width: 120px; /* Adjust the width as needed */
+}
+
 .pic-holder {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -456,6 +477,23 @@ body {
         margin: 0 auto; /* Center the image horizontally */
         padding: 0;
 
+    }
+
+    .navbar-nav .nav-link {
+        width: 100%; /* Adjust the width as needed */
+        text-align: center; /* Optional: Center text within the button */
+        /* margin-left: -30px; */
+        padding-right: 70px;
+        font-size: 20px;
+        border-radius: 10px; /* Adjust the border-radius for the oval effect */
+    }
+
+    .navbar-nav .nav-link.nav-long {
+        width: 100%; /* Adjust the width as needed */
+    }
+
+    .navbar-nav .nav-link.nav-short {
+        width: 100%; /* Adjust the width as needed */
     }
 }
 
