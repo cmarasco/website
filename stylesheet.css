@@ -107,7 +107,7 @@ body {
 
 .holder {
     /* border: 3px solid white; */
-    background-color: #FFFFFFEF;
+    background-color: #FFFFFFDA;
     /* background-color: #fff1e6; */
     /* padding: 10px; */
     margin-left: 10%;
@@ -150,15 +150,15 @@ body {
     margin-top: 25px;
     /* border: 2px solid #000; */
     border-right: 1px dashed #B23A48;
-    margin-left: 8%;
-    width: 350px;
+    margin-left: 0px;
+    width: 380px;
     padding-top: 60px;
 }
 
 .box-border img {
     display: block; /* Set the image display property to block */
     margin: 0 auto; /* Center the image horizontally */
-    width: 300px;
+    width: 325px;
     /* padding-right: 30px; */
     border-radius: 10px;
     /* margin-top: 30px; */
@@ -182,7 +182,7 @@ body {
 .text {
     margin-right: 8%;
     /* border: 2px solid #000; */
-    margin-left: 8%;
+    margin-left: 3%;
 }
 
 .text-left {
@@ -211,7 +211,7 @@ body {
 
 .holder-basic {
     /* border: 3px solid white; */
-    background-color: #FFFFFFEF;
+    background-color: #FFFFFFDA;
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 50px;
@@ -224,7 +224,7 @@ body {
     padding: 10px;
     margin-left: 8%;
     margin-right: 8%;
-    margin-bottom: 100px;
+    padding-bottom: 25px;
 }
 
 .holder > p {
@@ -275,7 +275,7 @@ body {
 .links-row p {
     margin: 0;
     font-size: 12px;
-    margin-left: -75px;
+    margin-left: -80px;
 }
 
 .links-row a {
@@ -297,7 +297,7 @@ body {
     grid-template-columns: repeat(2, 1fr); /* Two columns */
     grid-gap: 0px; /* Adjust the gap between grid items as needed */
     align-items: flex-start;
-    margin-left: -75px;
+    margin-left: -45px;
 }
 
 /* .navbar-nav .nav-item {
@@ -342,23 +342,68 @@ body {
     padding-left: 30px;
 }
 
+.corin_pic {
+    max-width: min(100%, 300px);
+    display: block; /* Set the image display property to block */
+    margin: 0 auto; /* Center the image horizontally */
+    padding: 0;
+}
 
-@media (max-width: 1000px) {
+.astero {
+    float:left;
+    max-width:275px;
+    border-radius: 10px;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin-top:5px;
+}
+
+.yses {
+    margin-left:20px;
+    margin-bottom:20px;
+
+    width: 250px;
+    border:0.5px solid black;
+    border-radius: 10px;
+    float:right;
+}
+
+
+@media (max-width: 900px) {
 
     .holder {
-        grid-template-columns: 1fr;
+        display: block;
+        height: 100%;
+        min-height: 100vh;
+        max-height: none;
+        margin-bottom: 0px;
+    }
+
+    .astero {
+        display: block;
+        float: none;
+        margin: auto; /* Center the image horizontally */
+        margin-bottom: 20px;
+    }
+
+    .yses {
+      display: block;
+      float: none;
+      margin: auto; /* Center the image horizontally */
+      margin-bottom: 20px;
+      width: 400px;
     }
 
     .sub-holder {
-        grid-template-columns: 1fr;
+        display: block;
     }
 
     .pic-holder {
-        grid-template-columns: 1fr;
+        display: block;
     }
 
     .sub-holder-flipped {
-        grid-template-columns: 1fr;
+        display: block;
     }
 
     .box-border {
@@ -368,9 +413,10 @@ body {
         padding-right: 2%;
         padding: 10px;
         margin-bottom: 0px;
+        padding-top: -20px;
         border-right: none;
-        border-bottom: 2px solid #000;
-        margin-top: 10px;
+        border-bottom: 1px dashed #B23A48;
+        margin-top: 40px;
         width: auto;
     }
 
@@ -429,6 +475,13 @@ body {
       order: 2; /* Change the order of the text in the horizontal layout */
     }
 
+    .text {
+        margin-left: 9%;
+        margin-top: -40px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+
     .right-header {
         margin-top: 0px;
     }
@@ -476,7 +529,6 @@ body {
         display: block; /* Set the image display property to block */
         margin: 0 auto; /* Center the image horizontally */
         padding: 0;
-
     }
 
     .navbar-nav .nav-link {
@@ -500,7 +552,6 @@ body {
 @media (min-width: 1250px) {
   .holder-basic {
       /* border: 3px solid white; */
-      background-color: #FFFFFFEF;
       padding-top: 50px;
       height: 100%;
       width: 1000px; /* Set a minimum height of 100% viewport height */
@@ -509,7 +560,6 @@ body {
 
   .holder {
       /* border: 3px solid white; */
-      background-color: #FFFFFFEF;
       margin: 0 auto; /* Center the image horizontally */
       padding-top: 70px;
       padding-bottom: 0px;
