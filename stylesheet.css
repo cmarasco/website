@@ -1,3 +1,7 @@
+function openInNewTab(url) {
+  window.open(url, '_blank').focus();
+}
+
 header {
     text-align: center;
     background-image: url("star_background.jpg");
@@ -267,8 +271,8 @@ body {
 }
 
 .logo {
-    max-width:20px;
-    max-height:20px;
+    max-width:55px;
+    max-height:55px;
     margin-right: 0px;
 }
 
@@ -280,6 +284,10 @@ body {
 
 .links-row a {
     color: black;
+}
+
+.links-row img {
+    max-width: 25px;
 }
 
 .links {
@@ -368,8 +376,23 @@ body {
     float:right;
 }
 
+.xpic {
+  display: block;
+  margin: 0 auto;
+  max-width: min(100%, 850px);
+  border:0.5px
+  solid black;
+  border-radius: 10px;
+}
 
-@media (max-width: 900px) {
+.mavis {
+  font-size:16px;
+  text-align: center;
+  margin-left:150px;
+  margin-right:150px;
+}
+
+@media (max-width: 992px) {
 
     .holder {
         display: block;
@@ -391,7 +414,7 @@ body {
       float: none;
       margin: auto; /* Center the image horizontally */
       margin-bottom: 20px;
-      width: 400px;
+      width: 100%;
     }
 
     .sub-holder {
@@ -409,8 +432,6 @@ body {
     .box-border {
         margin-left: 8%;
         margin-right: 8%;
-        padding-left: 2%;
-        padding-right: 2%;
         padding: 10px;
         margin-bottom: 0px;
         padding-top: -20px;
@@ -456,9 +477,6 @@ body {
     .box-border p {
         text-align: center;
     }
-    .logo {
-        max-width:12px;
-    }
 
     .squish-header {
         font-family: 'Montserrat', sans-serif;
@@ -486,12 +504,6 @@ body {
         margin-top: 0px;
     }
 
-    .logo {
-        max-width:20px;
-        max-height:20px;
-        /* border: 1px solid yellow; */
-    }
-
     .links-row p {
         margin: 0;
         font-size: 12px;
@@ -502,6 +514,10 @@ body {
 
     .links-row a {
         color: black;
+    }
+
+    .links-row img {
+        max-width: 50%;
     }
 
     .links {
@@ -524,19 +540,12 @@ body {
         /* border: 2px solid blue; */
     }
 
-    .corin_pic {
-        max-width: min(100%, 350px);
-        display: block; /* Set the image display property to block */
-        margin: 0 auto; /* Center the image horizontally */
-        padding: 0;
-    }
-
     .navbar-nav .nav-link {
         width: 100%; /* Adjust the width as needed */
         text-align: center; /* Optional: Center text within the button */
         /* margin-left: -30px; */
         padding-right: 70px;
-        font-size: 20px;
+        font-size: 15px;
         border-radius: 10px; /* Adjust the border-radius for the oval effect */
     }
 
@@ -547,6 +556,73 @@ body {
     .navbar-nav .nav-link.nav-short {
         width: 100%; /* Adjust the width as needed */
     }
+
+    .mavis {
+      font-size:16px;
+      text-align: center;
+      margin-left:50px;
+      margin-right:50px;
+    }
+}
+
+@media (max-width: 450px) {
+  .navbar-brand {
+      font-size: 26px;
+      font-weight: 150;
+  }
+
+  .logo {
+      max-width:35px;
+      max-height:35px;
+      margin-right: 0px;
+  }
+  .mavis {
+    font-size:14px;
+    text-align: center;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 26px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      margin-top: 60px;
+  }
+  h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 20px;
+      font-weight: 300;
+      margin-bottom: 20px;
+  }
+  .xpic {
+    display: block;
+    margin: 0 auto;
+    max-width: 110%;
+    border:0.5px
+    solid black;
+    border-radius: 10px;
+  }
+
+  .holder > p {
+     padding-left: 8%;
+     padding-right: 8%;
+     padding-top: 15px;
+     font-size: 14px;
+  }
+
+  .sub-holder > p {
+     padding-left: 8%;
+     padding-right: 8%;
+     padding-top: 15px;
+     font-size: 14px;
+  }
+  .holder {
+    padding-top: 20px;
+  }
+  .holder-basic {
+      padding-top: 20px;
+  }
 }
 
 @media (min-width: 1250px) {
