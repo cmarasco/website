@@ -107,6 +107,7 @@ body {
     /* background-color: #edf2f4; */
     background-image: url("star-background.jpg");
     font-family: 'Merriweather', sans-serif;
+    font-size: 16px;
 }
 
 .holder {
@@ -407,6 +408,7 @@ body {
         float: none;
         margin: auto; /* Center the image horizontally */
         margin-bottom: 20px;
+        max-width: min(350px,100%);
     }
 
     .yses {
@@ -545,7 +547,7 @@ body {
         text-align: center; /* Optional: Center text within the button */
         /* margin-left: -30px; */
         padding-right: 70px;
-        font-size: 15px;
+        font-size: 18px;
         border-radius: 10px; /* Adjust the border-radius for the oval effect */
     }
 
@@ -566,6 +568,9 @@ body {
 }
 
 @media (max-width: 450px) {
+  body {
+    font-size: 12px;
+  }
   .navbar-brand {
       font-size: 26px;
       font-weight: 150;
@@ -577,7 +582,7 @@ body {
       margin-right: 0px;
   }
   .mavis {
-    font-size:14px;
+    font-size:12px;
     text-align: center;
     margin-left:10px;
     margin-right:10px;
@@ -602,20 +607,6 @@ body {
     border:0.5px
     solid black;
     border-radius: 10px;
-  }
-
-  .holder > p {
-     padding-left: 8%;
-     padding-right: 8%;
-     padding-top: 15px;
-     font-size: 14px;
-  }
-
-  .sub-holder > p {
-     padding-left: 8%;
-     padding-right: 8%;
-     padding-top: 15px;
-     font-size: 14px;
   }
   .holder {
     padding-top: 20px;
