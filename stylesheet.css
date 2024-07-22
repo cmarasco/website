@@ -337,7 +337,6 @@ body {
     width: 100%;
     /* border: 2px solid red; */
     align-items: center; /* Center items vertically */
-
 }
 
 .pic-holder img {
@@ -345,6 +344,26 @@ body {
 }
 
 .pic-holder p {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 30px;
+}
+
+.pic-holder2 {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 1%; /* Adjust the gap between the boxes as needed */
+    width: 100%;
+    /* border: 2px solid red; */
+    align-items: center; /* Center items vertically */
+}
+
+.pic-holder2 img {
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+.pic-holder2 p {
     font-size: 13px;
     text-align: center;
     margin-top: 15px;
@@ -424,6 +443,10 @@ body {
     }
 
     .pic-holder {
+        display: block;
+    }
+
+    .pic-holder2 {
         display: block;
     }
 

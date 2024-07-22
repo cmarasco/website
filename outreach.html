@@ -5,13 +5,12 @@
         <link rel="stylesheet" href="stylesheet.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-        <link rel="shortcut icon" type="image/jpg" href="logo.jpg">
+        <link rel="shortcut icon" type="image/jpg" href="logo.png">
         <title>Corin Marasco</title>
     </head>
     <body>
-
         <nav class="navbar navbar-expand-lg fixed-top navbar-dark" style="background-color: #B23A48;">
-          <img src="logo.jpg" style="max-width:55px; max-height:55px;">
+          <img class='logo' src="logo.png">
           <a class="navbar-brand" style="margin-left: 20px;">Corin Marasco</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,13 +21,13 @@
                 <a class="nav-link" href="home.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="cv.html">CV</a>
+                <a class="nav-link nav-short" href="cv.html">CV</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="research.html">Research</a>
+                <a class="nav-link nav-long" href="research.html">Research</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="outreach.html">Education and Outreach</a>
+                <a class="nav-link nav-long" href="outreach.html">Outreach</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="mavis.html">My Cat</a>
@@ -37,18 +36,47 @@
           </div>
         </nav>
 
-        <div class="holder-basic">
-          <div class="box-basic">
+        <div class="holder-basic" style='padding-bottom:30px'>
             <h2 class="center-col">Outreach</h2>
-            <p style="text-align: center; font-size: 20px; margin-top: 50px;">
-                UNDER CONSTRUCTION
-            </p>
+
+        <div class="box-basic" style="margin-bottom: 0px;">
+          <p>
+            In addition to research, I often lead astronomy outreach programs and am the
+            graduate student representative for the UF Department of Astronomy outreach committee.
+            When presenting to the public, my goal is always to depict astronomy as a fun and
+            fascinating field that is accessible to anyone.
+          </p>
+          <p>
+            I work with the Scientist in Every Florida School (SEFS) program to connect with
+            local educators and bring astronomy education to underpriviledged parts of Florida.
+            Usually, this involves bringing UF's mobile planetarium and giving shows at K-12 schools,
+            public libraries, and parks. I also have given talks about astronomy topics, led
+            astronomy demonstrations and activities, and helped with public observing events.
+            In total, I have participated in nearly 40 outreach events, which have cumulatively
+            been attended by almost 3,000 people.
+          </p>
+
+          <div class="box-basic" style="margin-bottom: 0px;margin-top: 50px;padding-bottom: 0px;">
+              <img src="volunteers_after_planetarium_show-scaled.jpg" class='xpic'></img>
+          </div>
+          <div class="box-basic" style="margin-bottom: 30px;margin: 0px;padding: 0px;">
+            <div class="pic-holder2" style="margin: 0px;padding: 0px;">
+              <div class="box" style="margin: 0px;padding: 0px;padding-right:5px;">
+                <img src="cute outreach card.jpg" style="border-radius: 10px; margin-top: 40px;"></img>
+                <p>Cute thank you card from a 5th grade class.</p>
+              </div>
+              <div class='box' style="margin: 0px;padding: 0px;padding-left:5px;">
+                <embed src="Giant Stars and How We Study Them.pdf" type="application/pdf" width="100%" height="400px" style='margin-top: 40px;'>
+                <p>Slides from a public talk about stars (April 2024)</p>
+              </div>
+            </div>
           </div>
         </div>
 
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.0/js/bootstrap.min.js"></script>
+      <meta name="viewport" content="width=device-width" />
 
       <script>
         $(document).ready(function() {
